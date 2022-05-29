@@ -1,0 +1,113 @@
+body{
+  overflow-x: hidden;
+
+}
+header.masthead {
+    color: white;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    background-image: url("asset/header.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  header.masthead .masthead-heading {
+    font-size: 2.35rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 3.7rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  .font a{
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .title{
+      font-size: 2.4rem;
+      font-family: 'My Soul', cursive;
+  }
+  hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 1;
+  }
+  
+  .btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+  }
+  
+  hr.divider-light {
+    background-color: #fff;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  /* medium and up screens */
+  @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+  
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+  }
+  
+  .wwa-img{
+    width: 50rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .card-img img{
+    width: 50rem;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+  }

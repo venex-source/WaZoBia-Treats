@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=My+Soul&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Order</title>
+    <style>
+     .heading{
+         padding-top: 10rem;
+     }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand title" href="#">WaZoBia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item "><a class="nav-link text-dark" href="index.html">Home</a></li>
+                  <li class="nav-item "><a class="nav-link text-dark" href="Menu.html">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="order.html">Order</a></li>
+                  <li class="nav-item "><a class="nav-link text-dark" href="about.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark" href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="heading page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 mb-5">
+                    <div class="col-lg-6">
+                        <h2 class="my-3">Billing Address</h2>
+                        <form id="contactForm" >
+                            <div class="form-floating mb-3">
+                                
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                                <label for="name">Full name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" />
+                                <label for="email">Email</label>
+                            </div>
+                      
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="address" type="text" placeholder="54 w 15th. street" />
+                                <label for="text">Address</label>
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="Delivery" type="text" placeholder="54 w 15th. street" />
+                                <label for="text">Date Of Product Arrival</label>
+                            </div>
+                    </form>
+                    <div class="mt-3">
+                        <h2>Toggleable Tabs</h2>
+                        <br>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                          <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#all">Special Dishes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" data-toggle="tab" href="#yoruba">Youruba Dishes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" data-toggle="tab" href="#igbo">Igbo Dishes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" data-toggle="tab" href="#hausa">Hausa Dishes</a>
+                          </li>
+                        </ul>
+                      
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div id="all" class="tab-pane active"><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Suya</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Dodo & Gizzard</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Redbrim Whole</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">FishPeppersoup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Yam Porriage</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Rice & Goat Meat Stew</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Jollof Rice</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Beans & Plantain</label>
+                              </div>
+                                    
+            
+            
+                              
+                          </div>
+                          <div id="yoruba" class="container tab-pane fade"><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Amala Ewedu & Beef Stew</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Boli</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Moi-Moi</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Akara Balls</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Egusi and Semovita</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Ofada Rice Stew & Roasted Chicken</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Okra Soup & Gari</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Elegusi Plain</label>
+                              </div>
+                          </div>
+                          <div id="igbo" class="container tab-pane fade"><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Banga Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Vegetable Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Afang Soup </label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Yam & Vegetable Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Abacha</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Ofozi Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">White Fish Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Eforiro Soup</label>
+                              </div>
+                          </div>
+            
+                          <div id="hausa" class="container tab-pane fade"><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Plain White Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Rice & Zongo Stew</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Eforiro</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Tuwo & Danle</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Koko Millet and Akara</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Dambu</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Afang Soup</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+                                <label class="form-check-label" for="inlineCheckbox3">Abacha</label>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="my-3">Payment</h2>
+                    <form id="contactForm" >
+                        <label for="fname"><h5>Accepted Cards</h5></label>
+            <div class="icon-container mb-3">
+              <i class="fa fa-cc-visa fs-1" style="color:navy;"></i>
+              <i class="fa fa-cc-amex fs-1" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard fs-1" style="color:red;"></i>
+              <i class="fa fa-cc-discover fs-1" style="color:orange;"></i>
+            </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." />
+                            <label for="name">Full name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="Card number"type="text" placeholder="1234-5678-2468" />
+                            <label for="text">Card Number</label>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="sel1">Selec Bank:</label>
+                            <select class="form-control"  id="sel1">
+                              <option>Zenith</option>
+                              <option>Uba</option>
+                              <option>Wema</option>
+                              <option>Emirate</option>
+                            </select>
+                          </div>
+                        <!-- Phone number input-->
+                        <form>
+                            <div class="row">
+                              <div class="col">
+                                <input type="text" class="form-control" id="email" placeholder="Exp Date" name="text">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="CVV" name="text">
+                              </div>
+                            </div>
+                          </form>
+                </form>
+            </div>
+                <div class="form-check mt-5 h6">
+                    <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+                    <label class="form-check-label">Shipping Address same as billing.</label>
+                  </div>
+
+                  <button type="submit" class="btn btn-warning">Continue To Checkout</button>
+              </div>
+              </div>
+    </section>
+
+      
+
+        <!-- Footer-->
+<section class="page-section" id="services">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-3 col-md-6">
+                <div class="mt-5">
+                    <a class="navbar-brand title mb-3" href="#">WaZoBia</a>
+                    <p class="text-dark mb-2">Address: 15 Ibukun Oluwa St, Ojodu 112107, Lagos, Nigeria</p>
+                    <p class="text-secondary mb-0">WaZoBia Treats was established in Ikorodu, Lagos,  Nigeria. From our humble beginnings in year 2014, we have built a reputation of being leaders in authentic African dishes with over 23 branches dotted around West African and South Africa.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="mt-5">
+                    <h3 class="h4 mb-2 text-warning">Menu</h3>
+                    <ul class="list-unstyled tm-footer-links">
+                      <li><a href="Menu.html" class="nav-link text-body">Menu</a></li>
+                      <li><a href="order.html" class="nav-link text-body">Order</a></li>
+                      <li><a href="about.html" class="nav-link text-body">About Us</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="mt-5">
+                    <h3 class="h4 mb-2 text-warning">Useful Links</h3>
+                    <ul class="list-unstyled tm-footer-links">
+                      <li><a href="#" class="nav-link text-body">FAQ</a></li>
+                      <li><a href="#" class="nav-link text-body">Privacy polices</a></li>
+                      <li><a href="#" class="nav-link text-body">Terms and Conditions</a></li>
+                      <li><a href="#" class="nav-link text-body">Cookie polices</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+                <div class="mt-5">
+                    <h3 class="h4 mb-2 text-warning">Stay connected</h3>
+                    <p class="text-secondary mb-0">Address: 15 Ibukun Oluwa St, Ojodu 112107, Lagos, Nigeria</p>
+                    <ul class="list-unstyled tm-footer-links">
+                      <li><a href="tel:+0123456789" class="nav-link text-body">Tel: +01234567899</a></li>
+                     <li><a href="mailto:somexample@gmail.com" class="nav-link text-body">Mail: somexample@gmail.com</a></li>
+                  </ul>
+                  <div class="container">
+                  <div class="row my-2 ">
+                    <a class="btn btn-warning btn-social mx1" href="#!"><i class="fa fa-twitter "></i></a>
+                    <a class="btn btn-warning btn-social mx-1" href="#!"><i class="fa fa-facebook-f"></i></a>
+                    <a class="btn btn-warning btn-social mx-1" href="#!"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <footer class="bg-light py-4 border-top">
+    <div class="container px-4 px-lg-5"><div class="small text-end text-muted">Copyright &copy; 2022 - WaZoBia Kitchen</div></div>
+  </footer>
+   <!--jQuery-->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="index.js"></script>
+</body>
+</html>
